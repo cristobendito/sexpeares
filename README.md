@@ -1,2 +1,2 @@
 # sexpeares
-Páfina web de Las Sexpeares
+Página web de Las Sexpeares
