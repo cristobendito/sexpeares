@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import MediaControlCard from './components/play/player';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,8 +9,10 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <Footer />
+     <MediaControlCard />
+{/*       <Navbar />
+
+      <Footer /> */}
     </div>
   );
 }
