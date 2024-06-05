@@ -13,12 +13,12 @@ export default function MediaControlCard() {
   const theme = useTheme();
 
   return (
-    <Card sx={{ display: 'flex', position: 'fixed', bottom: 16, right: 16, zIndex: 9999 }}>
+    <Card sx={{ display: 'flex', position: 'fixed', bottom: 16, right: 16, zIndex: 9999, backgroundColor: '#00FF0000' }}>
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
       </Box>
       <Box sx={{ width: 300, height: 152 }}>
         <iframe
-          style={{ borderRadius: '12px' }}
+          style={{ borderRadius: '20px' }}
           src="https://open.spotify.com/embed/artist/3fFvapPXdQkd8C6O8Mw08s?utm_source=generator&theme=0"
           width="100%"
           height="152"

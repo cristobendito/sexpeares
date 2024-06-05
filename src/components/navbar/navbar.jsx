@@ -3,10 +3,14 @@ import './navbar.css';
 import logoGif from '../../assets/sexpeares3D.gif';
 
 const Navbar = () => {
-   const handleNavigation = (page) => {
-    // logica para navegar pagina correspondiente
+  const handleNavigation = (page) => {
+    // lógica para navegar a la página correspondiente
     console.log(`Navegando a ${page}`);
-  }; 
+  };
+
+  const handleExternalNavigation = (url) => {
+    window.open(url, '_blank');
+  };
 
   return (
     <nav className="navbar">
@@ -26,7 +30,7 @@ const Navbar = () => {
         <button className="navbar-button" onClick={() => handleNavigation('Videos')}>
           Videos
         </button>
-        <button className="navbar-button" onClick={() => handleNavigation('Tienda')}>
+        <button className="navbar-button" onClick={() => handleExternalNavigation('https://tienda.eldromedariorecords.com/collections/las-sexpeares-1')}>
           Tienda
         </button>
       </div>
