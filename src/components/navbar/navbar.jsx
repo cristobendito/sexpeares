@@ -21,8 +21,8 @@ const Navbar = () => {
         <button className="navbar-button" onClick={() => handleNavigation('Home')}>
           Home
         </button>
-        <button className="navbar-button" onClick={() => handleNavigation('Discos')}>
-          Discos
+        <button className="navbar-button" onClick={() => handleNavigation('Discografía')}>
+          Discografía
         </button>
         <button className="navbar-button" onClick={() => handleNavigation('Conciertos')}>
           Conciertos

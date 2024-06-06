@@ -23,7 +23,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-icon">
-          <a href="hhttps://www.tiktok.com/@lassexpeares" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.tiktok.com/@lassexpeares" target="_blank" rel="noopener noreferrer">
             <FaTiktok />
           </a>
         </div>
