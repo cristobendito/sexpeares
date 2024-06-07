@@ -1,0 +1,53 @@
+.instagram-feed {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; /* Add some padding to the container */
+    text-align: center; /* Center the content */
+  }
+  
+  .instagram-feed h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .instagram-feed .post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the posts */
+    gap: 20px;
+  }
+  
+  .instagram-feed .post {
+    width: 300px; 
+    height: 300px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .instagram-feed .post img, .instagram-feed .post video {
+    width: 100%;
+    height: auto;
+    flex-grow: 1; 
+  }
+  
+  .instagram-feed .post-caption {
+    padding: 10px;
+    flex-shrink: 0;
+    background-color: #fff; 
+  }
+  
+  .instagram-feed .post-caption p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .instagram-feed .post-caption a {
+    color: #3897f0;
+    text-decoration: none;
+  }
+  
