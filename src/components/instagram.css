@@ -1,9 +1,10 @@
 .instagram-feed {
     font-family: Arial, sans-serif;
+    display: contents;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px; /* Add some padding to the container */
-    text-align: center; /* Center the content */
+    padding: 120px; 
+    text-align: center; 
   }
   
   .instagram-feed h1 {
