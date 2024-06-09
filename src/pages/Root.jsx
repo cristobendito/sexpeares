@@ -7,7 +7,7 @@ const Root =()=>{
             <nav>
                 <ul>
                     <li>
-                        <Link to="/home">Home</Link>
+                        <Link to="/Home">Home</Link>
                     </li>
                     <li>
                         <Link to="/Discos">Discos</Link>

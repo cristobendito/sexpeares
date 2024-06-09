@@ -1,7 +1,7 @@
 
 :root {
-    --primary-color: #331f2e;  
-    --secundary-color: #2c0f25; 
+    --primary-color: #140811;  
+    --secundary-color: #11090f; 
   }
   
   body {
@@ -9,9 +9,6 @@
     padding-top: 50px;  
   }
   
-/*   .navbar-button.login{
-    margin-right: 40px;
-  } */
   .navbar {
     display: flex;
     justify-content: center;
@@ -24,16 +21,9 @@
     left: 0;
     width: 100%;
     height: 60px;
-    z-index: 1005;  /*Asegura que el navbar esté sobre otros contenidos*/
+    z-index: 1005;  /*navbar encima de todods los contenidos*/
   }
   
-/*   .navbar-title-bg { 
-    background-image: url('src/assets/sexpeares3D.gif');
-    background-size: cover;  
-    background-position: left center;  
-    height: 5px; 
-    width: 105px; 
-  } */
 
   .navbar-logo {
     display: flex;
@@ -41,8 +31,8 @@
 }
 
 .logo-img {
-    height: 140px; /* Adjusted height for smaller logo */
-    width: auto;  /* Ensures the aspect ratio remains constant */
+    height: 140px; 
+    width: auto;  
 }
 
   
@@ -74,7 +64,7 @@
   }
   
   .navbar-button {
-    background-color: #252525;
+    background-color: #1a1212;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -95,161 +85,4 @@
     outline: none; 
     box-shadow: none ;
   }
-  
-/*   .navbar-dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    left: -15px;
-    background-color: #f9f9f9;
-    min-width: 170px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 8px 8px 0 0;
-    
-  } */
-  /* 
-  @keyframes shake {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(5px); }
-    50% { transform: translateX(-5px); }
-    75% { transform: translateX(5px); }
-    100% { transform: translateX(0); }
-  }
-  
-  
-  .dropdown-content button {
-    width: 100%;
-    color: black;
-    padding: 8px;
-    text-decoration: none;
-  
-     display: flex; 
-    align-items: center;
-    border-radius: 4px;
-    align-content: center;
-  }
-  
-  .dropdown-content button:hover {
-    border: 1px solid var(--secundary-color);
-    border-radius: 8px 8px 0 0;
-    background-color: #f1f1f1;
-    font-size: 1.1rem;
-    animation: shake 0.5s ease-in-out;
-  }
-  
-  .dropdown-content button i {
-    color: var(--secundary-color);
-    font-size: 1.5rem;
-    transition: transform 0.5s ease;
-    margin-right: 13px;
-  }
-  
-  .dropdown-content button i:hover {
-    transform: rotate(360deg);
-    font-size: 1.7rem;
-  }
-  
-  .navbar-dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .navbar-search {
-    display: flex;
-    align-items: center;
-    margin-right: 2rem;
-  }
-  
-  .navbar-search-input {
-    padding: 0.5rem;
-    border: none;
-    border-radius: 4px;
-  }
-   
-  .navbar-search-button {
-    padding: 0.5rem 1rem;
-    border: none;
-    background-color: #555;
-    color: white;
-    cursor: pointer;
-    margin-left: 0.5rem;
-    border-radius: 4px;
-  } 
-  
-  .navbar-search-button:hover {
-    background-color: #777;
-  }
-  
-   Mobile menu button 
-  .navbar-menu-button {
-    display: none;
-    background-color: #555;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    margin: 0 2rem;
-    cursor: pointer;
-    font-size: 1.5rem;
-  }
-  
-  .navbar-menu-button:hover {
-    background-color: #777;
-  }
-  
-   Mobile styles 
-  @media (max-width: 860px) {
-    .navbar-links {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      background-color: #333;
-      position: absolute;
-      top: 84px;
-      left: 0;
-    }
-  
-    .navbar-links.open {
-      display: flex;
-    }
-  
-    .navbar-menu-button {
-      display: block;
-    }
-  
-    .navbar-search  {
-      margin-bottom: .5rem
-    }
-  
-    .navbar-link,
-    .navbar-button{
-      margin-bottom: 0.5rem;
-     
-    }
-  
-    .navbar-dropdown {
-      margin-top: 0.5rem;
-    }
-  
-    .dropdown-content {
-      position: absolute;
-      left: -32px;
-      width: 200px;
-      margin: auto;
-      background-color: #333;
-      max-height: 400px;  Altura máxima del contenido en modo móvil 
-      overflow-y: auto;  Añade scroll si el contenido excede la altura máxima 
-    }
-  
-     .dropdown-content button {
-      color: white;
-    } 
-  
-     .dropdown-content button:hover {
-      background-color: #444; 
-    } */
-  
   

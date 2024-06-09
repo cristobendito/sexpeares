@@ -6,11 +6,11 @@
     position:fixed;
     bottom: 0;
     width: 100%;
-    transition: padding 0.3s ease;  /* Smooth transition for expanding */
+    transition: padding 0.3s ease;
 }
 
 .footer:hover {
-    padding: 2rem 1rem;  /* Expands the footer on hover */
+    padding: 2rem 1rem;  
 }
 
 .footer-icons {
@@ -27,7 +27,7 @@
 }
 
 .footer-icon:hover {
-    transform: scale(1.2);  /* Slightly enlarge icons on hover */
+    transform: scale(1.2);  
 }
 
 .footer-icon a {
