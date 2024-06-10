@@ -13,6 +13,8 @@ const Home = () => {
       <div className="page-container">
         <div className="home-container">
           <img src={sexpeares1} alt="Sexpeares" className="home-image" />
+          <div className="overlay-text">"A veces indie, a veces punk"</div>
+          
         </div>
       </div>
 

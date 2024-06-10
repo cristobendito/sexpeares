@@ -39,12 +39,13 @@
   justify-content: center;
   align-items: center;
   margin: 10px;
+  margin-bottom: 70px;
 }
 
 .modal-card-container {
   flex: 0 0 200px; 
   box-sizing: border-box;
-  margin: 25px;
+  margin: 35px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   
 }
@@ -75,7 +76,8 @@
   transform: scale(1.05); 
   transition: transform 0.3s ease;
   filter: brightness(0.8); /*oscurece*/
+  cursor: pointer; 
 }
 .modal-card-container {
-  transition: filter 0.8s ease; /* Agrega una transición suave al cambio de filtro */
+  transition: filter 0.8s ease; 
 }

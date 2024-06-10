@@ -9,7 +9,7 @@ const InstagramFeed = () => {
     const fetchPosts = async () => {
       try {
         const response = await axios.get('http://localhost:3000/');
-        const latestPosts = response.data.slice(0, 10);
+        const latestPosts = response.data.slice(0, 6);
         setPosts(latestPosts);
       } catch (error) {
         console.error('Error en Instagram posts', error);

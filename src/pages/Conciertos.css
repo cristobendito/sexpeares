@@ -1,0 +1,13 @@
+body .sk-bandsintown-event {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding-top: 20px;
+}
+
+.sk-bandsintown-event{
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+}

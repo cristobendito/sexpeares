@@ -1,31 +1,39 @@
-import { useState } from 'react';
+import { useEffect } from 'react';
 import Navbar from './components/navbar/navbar';
 import MediaControlCard from './components/play/player';
-import Layout from "./components/layout.jsx";
-
-
+import Footer from './components/footer/footer';
+import "./App.css";
 
 function Conciertos() {
-  const imageUrl1 = 'https://via.placeholder.com/300';
-  const imageUrl2 = 'https://via.placeholder.com/300';
-  const imageUrl3 = 'https://via.placeholder.com/300';
-  const imageUrl4 = 'https://via.placeholder.com/300';
-  const imageUrl5 = 'https://via.placeholder.com/300';
-  const spotifyLink1 = 'https://open.spotify.com/intl-es/album/11Gz3ysUE4fqJg3KN51n7N?si=7B8WGtNFSne6FG6qr-OnOA';
-  const spotifyLink2 = 'https://open.spotify.com/intl-es/album/4hb0pZ1Bdm19TGHF8Q88vw?si=E5ImClFLRQG5RyXKmOBjtg';
-  const spotifyLink3 = 'https://open.spotify.com/intl-es/album/67LI43N7nwGWoq8ZY4eASL?si=jwnusnCUTA-brYxpP-ZMQQ';
-  const spotifyLink4 = 'https://open.spotify.com/album/4bKYZ40qo1j0278K5GZ3io?si=gCQZZMWNR82WRzGTttUzpg';
-  const spotifyLink5 = 'https://open.spotify.com/album/77KcXNaA7zPxpcNBPh8Ecf?si=PvIJXL2zR4ajCcmnBp5qKg';
-  const albumId = '11Gz3ysUE4fqJg3KN51n7N?si=gurn-CyVR7a6Z4UDxMFTow';
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://widgets.sociablekit.com/bandsintown-events/widget.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+
+    
+    script.onload = () => {
+      // forzar la reaplicación de estilos 
+  
+      document.body.classList.add('reapply-styles');
+    };
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
-    <Layout>
-    <div className="Conciertos">
-      <Navbar />
-      <SpotifyAlbum albumId={albumId} />
-      <Footer />
-    </div>
-    </Layout>
+
+      <div className="Conciertos">
+        <Navbar />
+        <div className='sk-bandsintown-event' data-embed-id='25423773'></div>
+        <MediaControlCard />
+        <Footer />
+      </div>
+
   );
 }
 

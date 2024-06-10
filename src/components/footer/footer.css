@@ -9,6 +9,7 @@
     width: 100%;
     transform: translateY(50%); /* Centra verticalmente el footer */
     transition: padding 0.3s ease;
+    z-index: 8888; /*encima de todo*/
   }
   
 .footer:hover {

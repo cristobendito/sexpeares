@@ -39,7 +39,7 @@
     left: 50%; /* Alinea el texto un poco a la izquierda */
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
-    font-family: "Segoe Script", bold; /* Utiliza una fuente estilizada */
+    font-family: "Segoe Script", bolder; /* Utiliza una fuente estilizada */
     font-size: 34px; /* Tamaño de la fuente */
 /*     background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 5px;
