@@ -3,12 +3,14 @@
     color: white;
     text-align: center;
     padding: 1rem;
-    position:fixed;
-    bottom: 0;
+    position: fixed;
+    bottom: 5%; /* Coloca el footer en la mitad inferior de la ventana */
+    left: 0; /* Alinea el footer a la izquierda */
     width: 100%;
+    transform: translateY(50%); /* Centra verticalmente el footer */
     transition: padding 0.3s ease;
-}
-
+  }
+  
 .footer:hover {
     padding: 2rem 1rem;  
 }
