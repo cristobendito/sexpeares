@@ -1,6 +1,5 @@
-import { useState } from 'react';
-import Navbar from './components/navbar/navbar';
-import './App.css'
+import Navbar from '../components/navbar/navbar';
+import '.,/App.css'
 import MediaControlCard from './components/play/player';
 import Footer from './components/footer/footer';
 import ModalCard from './components/main/modalCard';
@@ -11,7 +10,7 @@ import mefui from './assets/mefui.jpg';
 import sexpearesep from './assets/sexpearesep.jpg';
 
 
-function App() {
+function Discos() {
   const spotifyLink1 = 'https://open.spotify.com/intl-es/album/11Gz3ysUE4fqJg3KN51n7N?si=7B8WGtNFSne6FG6qr-OnOA';
   const spotifyLink2 = 'https://open.spotify.com/intl-es/album/4hb0pZ1Bdm19TGHF8Q88vw?si=E5ImClFLRQG5RyXKmOBjtg';
   const spotifyLink3 = 'https://open.spotify.com/intl-es/album/67LI43N7nwGWoq8ZY4eASL?si=jwnusnCUTA-brYxpP-ZMQQ';
@@ -20,7 +19,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="Discos">
       <Navbar />
       <div className="modal-cards-container" title="Discografía">
       <ModalCard imageUrl={sexpearesep} spotifyLink={spotifyLink5} />
@@ -36,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default Discos;

@@ -1,0 +1,37 @@
+.presskit-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.presskit-section {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  background-color: var(--secundary-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.presskit-title {
+  color: #FFD700; 
+}
+
+.presskit-text {
+  color: #FFD700; 
+}
+
+.download-button {
+  background-color: var(--primary-color);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: var(--secundary-color);
+}

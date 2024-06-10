@@ -8,8 +8,22 @@
     margin: 0;
     padding-top: 50px;  
   }
-  
+
   .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; 
+    padding: 0.5rem 1rem;
+    color: black; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1005; /* navbar encima de todods los contenidos */
+}  
+/*   .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,9 +35,9 @@
     left: 0;
     width: 100%;
     height: 60px;
-    z-index: 1005;  /*navbar encima de todods los contenidos*/
+    z-index: 1005;  navbar encima de todods los contenidos
   }
-  
+   */
 
   .navbar-logo {
     display: flex;

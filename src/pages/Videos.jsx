@@ -1,16 +1,19 @@
 import React from "react";
-import Layout from "./Layout";
-import Layout from "./components/layout.jsx";
+import Navbar from '../components/navbar/navbar';
+import MediaControlCard from '../components/play/player';
+import Footer from '../components/footer/footer';
 
 
 function Videos() {
   return (
-    <Layout>
-      <div>
 
+    <div className="Videos">
+      <Navbar />
 
-      </div>
-    </Layout>
+      <MediaControlCard />
+      <Footer />
+    </div>
+
   );
 };
 

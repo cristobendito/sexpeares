@@ -1,20 +1,19 @@
 import React from "react";
-import Layout from "./components/layout.jsx";
-import { useState } from 'react';
 import Navbar from './components/navbar/navbar';
-import './App.css'
+import '../App.css'
 import MediaControlCard from './components/play/player';
 import Footer from './components/footer/footer';
-import MediaControlCard from "./player"
+import sexpeares1 from './assets/fotos/sexpeares1.jpg';
 
 function Home() {
   return (
-    <Layout>
-    <div className="App">
+    <div className="Home">
+      <Navbar />
+      <img src={sexpeares1} />
 
-
+      <MediaControlCard />
+      <Footer />
     </div>
-    </Layout>
   );
 };
 

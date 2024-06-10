@@ -1,4 +1,4 @@
-/* import "../App.css";
+import "../App.css";
 import { Outlet,Link } from "react-router-dom";
 const Root =()=>{
 
@@ -7,16 +7,19 @@ const Root =()=>{
             <nav>
                 <ul>
                     <li>
-                        <Link to="/Home">Home</Link>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/Discos">Discos</Link>
+                        <Link to="/discografia">Discos</Link>
                     </li>
                     <li>
-                        <Link to="/Conciertos">Conciertos</Link>
+                        <Link to="/conciertos">Conciertos</Link>
                     </li>
                     <li>
-                        <Link to="/Videos">Videos</Link>
+                        <Link to="/videos">Videos</Link>
+                    </li>
+                    <li>
+                        <Link to="/press">Press Kit</Link>
                     </li>
                 </ul>
             </nav>
@@ -25,4 +28,4 @@ const Root =()=>{
     )
 };
 
-export default Root; */
+export default Root;
