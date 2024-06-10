@@ -1,5 +1,5 @@
 import Navbar from '../components/navbar/navbar';
-import '.,/App.css'
+import './App.css'
 import MediaControlCard from './components/play/player';
 import Footer from './components/footer/footer';
 import ModalCard from './components/main/modalCard';
